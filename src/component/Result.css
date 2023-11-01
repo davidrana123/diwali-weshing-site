@@ -1,0 +1,75 @@
+.diwali-container {
+    background: url('../assets/4A5.gif') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .diwali-content {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 1.5em;
+  }
+  
+
+
+  /* Result.css */
+/* Result.css */
+.modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+    position: relative;
+  }
+  
+
+/* Modal Close Button */
+/* Modal Close Button */
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px; /* Increase the font size */
+    color: #18ad1f; /* Change the color to red or your preferred color */
+    background-color: #551fdd; /* Add a white background */
+    border: none;
+    border-radius: 50%;
+    padding: 10px 16px;
+    transition: transform 0.2s; /* Add a smooth hover effect */
+  }
+  
+  .close-button:hover {
+    transform: scale(1.1); /* Apply a scale effect on hover */
+  }
+  
+  

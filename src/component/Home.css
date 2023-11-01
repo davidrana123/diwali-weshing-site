@@ -1,0 +1,91 @@
+.App {
+    text-align: center;
+  }
+  
+  .background {
+    background: url("../assets/4A5.gif") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .greeting-card {
+    background-color: rgba(67, 35, 195, 0.7); /* Lovely card background color */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .input-fields {
+    margin: 20px 0;
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+    }
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+    }
+  }
+  
+  button {
+    background-color: #f1c40f;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #f39c12;
+  }
+  
+  .modal-content {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+
+  /* Home.css */
+  
+  h1 {
+    /* Styles for the "Happy Diwali!" heading */
+    font-size: 32px;
+    color: #FF5733; /* Lovely color */
+  }
+  
+  h2 {
+    /* Styles for the second heading with emojis */
+    font-size: 20px;
+    color: #FDB813; 
+  }
+  
+  .input-fields input,
+  .input-fields textarea {
+    /* Styles for text fields */
+    font-size: 18px; /* Increase text size */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    /* Styles for the "Submit" button */
+    background-color: #FDB813; /* Lovely color */
+  color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
