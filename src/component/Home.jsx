@@ -69,7 +69,7 @@ const route = useNavigate();
             <br />
             <br />
             <textarea
-              placeholder="Relection"
+              placeholder="Relationship"
               value={reflection}
               onChange={(e) => setReflection(e.target.value)}
             />
