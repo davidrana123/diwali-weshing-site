@@ -4,7 +4,8 @@
     color: #fff;
     padding: 20px;
     text-align: center;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto; /* Center the footer horizontally */
     display: flex;
     justify-content: space-between;
     align-items: center;
