@@ -60,7 +60,7 @@ const Result = () => {
         <button onClick={Back}>Back</button>
         <br />
         <br />
-        <button  onClick={playAudio}>Download As Video</button>
+        {/* <button  onClick={playAudio}>Download As Video</button> */}
       </div>
     </div>
     </>
